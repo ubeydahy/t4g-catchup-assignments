@@ -1,0 +1,19 @@
+A. -rwxr-xr-- : This is a file where the owner can read, write and execute.
+The group can read and execute, but cannot write.
+The others can only read, but cannot write and execute.
+
+B. drwxrwx--- : This is a directory where the owner can read, write and execute.
+The group can also read, write and execute.
+The others cannot do anything, they can neither write nor read nor execute.
+
+C. -rw-r--r-- : This a file where the owner can only read and write, but cannot execute.
+The group can only read, but cannot write and execute.
+The others can also only read, but cannot write and execute.
+
+D. chmod 750 file : This is changing the permission of a file to allows the owner to read, write and execute.
+The group to read and execute only.
+The others to do nothing.
+
+E. chmod 600 file : This is changing the permission of a file to allow the owner to read and write only.
+The group to do nothing.
+The others to also do nothing.
